@@ -8,6 +8,5 @@ phases:
       - ls -la node_modules/
 artifacts:
   files:
-    - '**/*'
+    - 'node_modules/**/*'
   discard-paths: no
-  base-directory: node_modules
