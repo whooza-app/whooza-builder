@@ -1,0 +1,26 @@
+{
+  "name": "whooza-builder",
+  "private": true,
+  "description": "WHOOZA application builder binaries.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "gatsby": "^2.1.27",
+    "gatsby-plugin-sass": "^2.0.1",
+    "gatsby-plugin-manifest": "^2.0.0",
+    "gatsby-plugin-offline": "^2.0.0",
+    "gatsby-source-filesystem": "^2.0.23",
+    "node-sass": "^4.9.0",
+    "puppeteer": "^1.12.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whooza-app/whooza-builder"
+  },
+  "bugs": {
+    "url": "https://github.com/whooza-app/whooza-builder/issues"
+  }
+}
