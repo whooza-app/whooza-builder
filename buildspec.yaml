@@ -6,3 +6,8 @@ phases:
   build:
     commands:
       - ls -la node_modules/
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: node_modules
