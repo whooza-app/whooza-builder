@@ -2,12 +2,16 @@ version: 0.1
 phases:
   pre_build:
     commands:
+      - node --version
+      - npm --version
       - apt-get update
       - apt-get install -y curl
       - mkdir .nvm
       - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | PROFILE="/dev/null" NVM_DIR=".nvm" bash
-      - source .nvm/nvm.sh
+      - . .nvm/nvm.sh
       - nvm install --lts=Dubnium
+      - node --version
+      - npm --version
       - npm install
   build:
     commands:
